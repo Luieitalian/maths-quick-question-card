@@ -1,0 +1,60 @@
+html {
+    font-family: 'Indie Flower', cursive;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 270px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 300px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.score {
+    align-self: baseline;
+}
+.question {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    width: 350px;
+}
+input {
+    margin-top: 30px;
+    border: none;
+    width: 300px;
+    font-size: 1.2rem;
+    height: 50px;
+    border: 4px solid rgb(0, 131, 0);
+    text-align: center;
+    font-family: cursive;
+}
+
+button {
+    width: 312px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: 'Indie Flower', cursive;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+button:active {
+    background-color: black;
+}
+button:hover {
+    filter: brightness(0.8);
+}
